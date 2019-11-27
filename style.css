@@ -1,0 +1,89 @@
+.converter{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    background: #f7f7f7;
+    padding: 1%;
+}
+
+h1, h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1{
+    color: #e5b9b6;
+}
+
+h3{
+    color: #eed5d1;
+}
+
+
+.form-inputs{
+    text-align: center;
+    padding: 10% 4%;
+    background-color: #edf4ea;
+    margin-top: 11%;
+}
+
+.temp-form input{
+    display: block;
+}
+
+input.temp-f {
+    width: 70%;
+    margin-left: 15%;
+    padding: 2% 1%;
+    text-transform: uppercase;
+    font-size: 100%;
+    text-align: center;
+    color: #062639;
+    border: 2px solid #e5b9b6;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+input[type=submit]{
+	border: 0;
+}
+input.submit {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1%;
+    background: #e5b9b6;
+    padding: 2% 1%;
+    color: #f7f7f7;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+input.submit:hover{
+    background: #eed5d1;
+    color: #e5b9b6;
+}
+
+.temp-img{
+    width: 50%;
+    margin-left: 25%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.image-container{
+    position: relative;
+}
+
+.temp-c {
+    position: absolute;
+    top: 100px;
+    left: 32%;
+    background: #f7f7f7da;
+    padding: 2%;
+}
